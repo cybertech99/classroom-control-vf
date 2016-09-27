@@ -46,3 +46,4 @@ node default {
     creates => '/etc/motd',
    }
     
+}
