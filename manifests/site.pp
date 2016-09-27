@@ -42,7 +42,7 @@ node default {
   # This is where you can declare classes for all nodes.
   # Example:
   #   class { 'my_class': }
-  exec { "cowsay 'Welcome to ${::fqdn}!' > /etc/motd":    path    => '/usr/bin:/usr/local/bin',    creates => '/etc/motd',  }
+include users
 
     
 }
