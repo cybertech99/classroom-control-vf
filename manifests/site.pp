@@ -44,9 +44,9 @@ node default {
   #   class { 'my_class': }
   
   
-  class { 'nginx':
-  root => '/var/www/html',    
-  } 
+  #class { 'nginx':
+  #root => '/var/www/html',    
+  #} 
 
   
 }
